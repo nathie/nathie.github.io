@@ -2,6 +2,7 @@
   background-color: #432A4F;
   height: 90vh;
   width: 100%;
+  margin-bottom: 80px;
 
   display: flex;
   align-items: center;
@@ -10,7 +11,12 @@
   text-align: center;
 
   .cover-heading {
+    color: #fff;
     margin-bottom: 20px;
+  }
+
+  .cover-subtitle {
+    color: #fff;
   }
 }
 

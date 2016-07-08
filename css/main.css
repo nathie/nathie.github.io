@@ -2,13 +2,17 @@
   background-color: #432A4F;
   height: 90vh;
   width: 100%;
+  margin-bottom: 80px;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
   text-align: center; }
   .cover-container .cover-heading {
+    color: #fff;
     margin-bottom: 20px; }
+  .cover-container .cover-subtitle {
+    color: #fff; }
 
 .social {
   margin-top: 20px; }
@@ -28,6 +32,29 @@
       background-color: #57bca8;
       padding: 10px; }
 
+.featurette-heading {
+  margin-top: 0; }
+
+.carousel-inner .item {
+  background: transparent no-repeat 50% 50%; }
+  .carousel-inner .item a {
+    display: block;
+    height: 100%;
+    width: 100%; }
+    .carousel-inner .item a:hover {
+      background: rgba(0, 0, 0, 0.4); }
+.carousel-inner .pulse1 {
+  background-image: url(../img/pulse1.png); }
+.carousel-inner .pulse2 {
+  background-image: url(../img/pulse2.png);
+  background-position: 0 0; }
+.carousel-inner .pulse3 {
+  background-image: url(../img/pulse3.png); }
+.carousel-inner .pulse4 {
+  background-image: url(../img/pulse4.png); }
+.carousel-inner .pulse5 {
+  background-image: url(../img/pulse5.png); }
+
 body {
   background-color: #fff;
   color: #000;
@@ -37,7 +64,6 @@ body {
   padding: 0; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #fff;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; }
 
 ul {
