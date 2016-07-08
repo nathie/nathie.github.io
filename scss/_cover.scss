@@ -1,0 +1,44 @@
+.cover-container {
+  background-color: #432A4F;
+  height: 90vh;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  .cover-heading {
+    margin-bottom: 20px;
+  }
+}
+
+.social {
+  margin-top: 20px;
+ 
+  .list-items {
+    display: flex;
+    align-items: center;
+
+    a {
+      display:block;
+    
+      &:hover i {
+        border-color: #fff;
+      }
+    }
+
+    li {
+      padding: 0 10px;
+    }
+
+    i {
+      color: #fff;
+      font-size: 20px;
+      border-radius: 50%;
+      background-color: #57bca8;
+      padding: 10px;
+    }
+  }
+}

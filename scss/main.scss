@@ -1,0 +1,25 @@
+// Google Font
+//@import url(https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Arvo);
+
+//$arvo-font: Arvo, Helvetica;
+
+@import "cover";
+
+body {
+	background-color: #fff;
+	color: #000;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #fff;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
